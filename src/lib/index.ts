@@ -1,1 +1,2 @@
-// place files you want to import through the `$lib` alias in this folder.
+export const SITE_NAME = 'JD Brinton Consulting';
+export const SITE_URL = 'https://jdbrintonconsulting.com';

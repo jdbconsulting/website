@@ -1,3 +1,46 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--color-navy-50: #f0f3f9;
+	--color-navy-100: #dae1f0;
+	--color-navy-200: #b3c2e0;
+	--color-navy-300: #8299c8;
+	--color-navy-400: #5a73ae;
+	--color-navy-500: #3d5591;
+	--color-navy-600: #2f4377;
+	--color-navy-700: #24345d;
+	--color-navy-800: #1a2744;
+	--color-navy-900: #111b30;
+	--color-navy-950: #0a1120;
+
+	--color-accent-50: #fffbeb;
+	--color-accent-100: #fef3c7;
+	--color-accent-200: #fde68a;
+	--color-accent-300: #fcd34d;
+	--color-accent-400: #fbbf24;
+	--color-accent-500: #f59e0b;
+	--color-accent-600: #d97706;
+	--color-accent-700: #b45309;
+
+	--font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	::selection {
+		background-color: var(--color-accent-200);
+		color: var(--color-navy-950);
+	}
+
+	:focus-visible {
+		outline: 2px solid var(--color-accent-500);
+		outline-offset: 2px;
+	}
+}
