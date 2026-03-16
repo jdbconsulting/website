@@ -11,7 +11,7 @@
 <Seo />
 
 <Hero
-	title="Human Hardware Engineering Leadership in the Age of AI"
+	title="Human Leadership in Hardware Engineering in the Age of AI"
 	subtitle="We partner with highly technical hardware companies to rapidly build proof-of-concepts."
 	primaryCta="Start a Conversation"
 	primaryHref="/contact"
