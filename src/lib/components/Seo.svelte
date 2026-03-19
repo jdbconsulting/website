@@ -5,7 +5,7 @@
 		ogImage?: string;
 	}
 
-	const SITE_NAME = 'JD Brinton Consulting';
+	const SITE_NAME = 'JDBC';
 	const DEFAULT_DESCRIPTION =
 		'Senior electrical engineering consulting for startups and deep-tech teams. Strategy, architecture, and technical execution.';
 
