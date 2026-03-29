@@ -32,6 +32,39 @@
 
 <section class="border-t border-slate-100 bg-slate-50 py-20 sm:py-28">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<div class="mx-auto max-w-3xl">
+			<a
+				href="/about/history"
+				class="group flex items-start gap-5 rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-accent-300 hover:shadow-lg sm:items-center sm:p-8"
+			>
+				<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-accent-400">
+					<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+					</svg>
+				</div>
+				<div class="flex-1">
+					<h3 class="text-lg font-semibold text-slate-900 group-hover:text-navy-700">Our History</h3>
+					<p class="mt-1 text-sm leading-relaxed text-slate-600">
+						From Brinton Research in 2009 through Signal Labs, Amaya Tech, and Electron Labs — the full lineage of how JDBC came to be.
+					</p>
+				</div>
+				<svg
+					class="mt-1 h-5 w-5 shrink-0 text-slate-300 transition-transform group-hover:translate-x-0.5 group-hover:text-accent-500"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+					aria-hidden="true"
+				>
+					<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="border-t border-slate-100 bg-white py-20 sm:py-28">
+	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Our Team</h2>
 			<p class="mt-4 text-lg leading-relaxed text-slate-600">

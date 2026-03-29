@@ -12,7 +12,8 @@
 	const links = [{ href: '/', label: 'Home' }];
 
 	const aboutLinks = [
-		{ href: '/about/joel-brinton', label: 'Joel Brinton' }
+		{ href: '/about/history', label: 'History' },
+		{ href: '/about/joel-brinton', label: 'Joel Brinton', separator: 'People' }
 	];
 
 	const caseStudyLinks = [
@@ -91,6 +92,10 @@
 					class="rounded-lg border border-slate-200 bg-white py-1 shadow-lg"
 				>
 					{#each aboutLinks as link}
+						{#if link.separator}
+							<div class="mx-3 my-1 border-t border-slate-100"></div>
+							<span class="block px-4 pt-1.5 pb-0.5 text-[10px] font-semibold uppercase tracking-wider text-slate-400">{link.separator}</span>
+						{/if}
 						<a
 							href={link.href}
 							class="block px-4 py-2.5 text-sm text-slate-600 transition-colors hover:bg-slate-50 hover:text-slate-900"
@@ -264,6 +269,9 @@
 						Company
 					</a>
 					{#each aboutLinks as link}
+						{#if link.separator}
+							<span class="mt-1 block px-3 pt-2 pb-0.5 text-[10px] font-semibold uppercase tracking-wider text-slate-400">{link.separator}</span>
+						{/if}
 						<a
 							href={link.href}
 							onclick={() => (menuOpen = false)}
